@@ -1,1 +1,0 @@
-([key, value]) => `<pre><strong>${key}</strong>: ${value}</pre>`;

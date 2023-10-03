@@ -1,1 +1,0 @@
-function unique_name_494(){if(void 0!==this.tracks){var a=this,b=a.selectedTrack,c=void 0;if(null!==b&&b.isLoaded){if(c=a.searchTrackPosition(b.entries,a.media.currentTime),c>-1)return a.captionsText.html(b.entries[c].text).attr("class",a.options.classPrefix+"captions-text "+(b.entries[c].identifier||"")),void a.captions.show().height(0);a.captions.hide()}else a.captions.hide()}}

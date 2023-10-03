@@ -1,1 +1,0 @@
-function h(a){var b=a.currentTarget,c=b.getAttribute("data-youtube"),d=b.getAttribute("data-ytparams")||"";d&&!m.test(d)&&(d="&"+d),a.preventDefault(),b.innerHTML='<iframe src="'+o.replace(k,c)+d+'" frameborder="0" allowfullscreen="" width="640" height="390"></iframe>',b.removeEventListener("click",h)}

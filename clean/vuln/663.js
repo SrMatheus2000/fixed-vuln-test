@@ -1,1 +1,0 @@
-function i(e,n,i){var o=i[0],u=i.length;if(e||s(o)!=="object")o={};for(var a=0;a<u;++a){var f=i[a],l=s(f);if(l!=="object")continue;for(var c in f){var h=e?t.clone(f[c]):f[c];if(n){o[c]=r(o[c],h)}else{o[c]=h}}}return o}

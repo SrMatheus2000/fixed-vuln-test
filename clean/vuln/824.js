@@ -1,1 +1,0 @@
-function unique_name_435(a){var i=null,p=/^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$/;if(!a.match(".")){return a}a=p.exec(a).slice(1);i=a[a.length-1];return i!==""?i:a[a.length-2]}
